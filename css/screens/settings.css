@@ -1,0 +1,30 @@
+.settings__list {
+  border-bottom: var(--border-underline);
+  padding-bottom: 20px;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  font-size: 22px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.n_badge {
+  color: red;
+  font-weight: 600;
+}
