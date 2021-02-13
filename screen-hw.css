@@ -1,0 +1,171 @@
+.fa-star {
+    color: #ffce33;
+}
+.fa-star:last-child {
+    color: black;
+    opacity: 0.2;
+}
+.main {
+    position: relative;
+}
+
+body {
+    width: 400px;
+    height: 900px;
+    overflow: scroll;
+}
+h2 {
+    margin-left: 15px;
+}
+
+.theday__column img {
+    width: 110px;
+    height: 160px;
+    margin-left: 15px;
+}
+.adventure__column img {
+    width: 90px;
+    height: 130px;
+    margin-left: 15px;
+}
+.author__column img {
+    width:150px;
+    height: 100px;
+    margin-left: 15px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 120%;
+    width:100%;
+    height: 90px;
+    background-color: #ffce33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.header span i {
+    margin: 0px 15px;
+}
+
+
+.search {
+ display: flex;
+ justify-content: center;   
+ position: absolute;
+ top: 65px;
+ left: 25px;
+}
+.search__box {
+    position: relative;
+}
+.search__box i {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+}
+.search__box input {
+    background-color: white;
+    width: 320px;
+    border: 0.2px solid rgba(0,0,0,0.05);
+    padding: 15px;
+    border-radius: 100px;
+}
+.search__box i,
+.search__box input::placeholder {
+    opacity: 0.4;
+}
+
+.theday {
+    display: flex;
+}
+.theday__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+.theday__column h4,
+.theday__column h5 {
+    margin: 3px;
+    margin-bottom: 5px;
+}
+.theday__column h5 {
+    opacity: 0.4;
+}
+.theday__categories {
+    display: flex;
+    justify-content: space-between;
+}
+.theday__category {
+    background-color: #f7f7f7;
+    padding: 5px 12px;
+    border-radius: 10%;
+    margin: 3px 3px;
+}
+.theday__ux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0px;
+}
+.theday__book:first-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffce33;
+
+}
+
+.theday__book:last-child {
+    background-color: #0d0d0d;
+    color: white;
+    width: 70px;
+    font-size: 11px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.adventure {
+    display: flex;
+    overflow: scroll;
+}
+.adventure i {
+    font-size: 11px;
+}
+.adventure__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.adventure__column span {
+    text-align: center;
+    display: block;
+    padding-left: 12px;
+    margin-top: 14px;
+}
+
+
+.author {
+    display: flex;
+}
+.author__column:last-child {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.author__title {
+    font-size: 20px;
+    font-weight: 800;
+}
+.author__text {
+    font-size: 80%;
+    opacity: 0.5;
+}
