@@ -65,6 +65,7 @@
   height: 50px;
   border-radius: 40%;
   margin-right: 10px;
+  animation: fadeInRight 0.5s linear;
 }
 .message__author {
   opacity: 0.8;
